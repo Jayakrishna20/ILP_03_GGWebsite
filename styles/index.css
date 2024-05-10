@@ -1,0 +1,169 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+* {
+  font-family: "Inter", sans-serif;
+}
+#top-heading {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  padding-top: 10px;
+}
+#contact {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#phone-email {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-right: 50px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  width: 153px;
+  height: 25px;
+  justify-content: space-between;
+}
+#icon {
+  width: 30px;
+  height: 30px;
+}
+#nav-bar {
+  display: flex;
+}
+#nav-bar ul {
+  display: flex;
+  list-style-type: none;
+  padding-top: 17px;
+  gap: 12px;
+  margin-right: 0;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#logo-img {
+  padding-left: 40px;
+}
+.main-image {
+  padding-left: 32px;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  background-size: cover;
+}
+.btn {
+  background-color: #17c1a3;
+  color: white;
+}
+.btn:hover {
+  color: white;
+}
+.container-appointment {
+  width: 97%;
+  position: absolute;
+  top: 700px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.form-group {
+  margin-bottom: 0.5rem;
+}
+.cover-1-writing {
+  z-index: 1;
+  padding-left: 104px;
+}
+.cover-1-writing a {
+  text-decoration: underline;
+  color: #000;
+}
+.department {
+  position: absolute;
+  margin-top: 600px;
+}
+.dept-heading {
+  padding-left: 38px;
+  padding-bottom: 18px;
+}
+.card-no-border {
+  border: none;
+}
+.card-fontsize {
+  font-size: 15px;
+}
+.card-pad {
+  padding-left: 20px;
+  padding-right: 42px;
+}
+.card-body a {
+  color: #17c1a3;
+  text-decoration: underline;
+}
+.card-text {
+  font-size: small;
+}
+.special-banner {
+  position: absolute;
+  margin-top: 1200px;
+}
+.cover-2-writing {
+  z-index: 1;
+}
+.cover-2-heading {
+  padding-left: 750px;
+}
+.features {
+  text-align: left;
+  font-size: 15px;
+  margin-left: 760px;
+  padding-top: 30px;
+}
+.features .row {
+  padding-bottom: 25px;
+}
+.doctor-heading {
+  margin-top: 2000px;
+  text-align: center;
+}
+.doctor-pad {
+  padding-left: 38px;
+  padding-right: 43px;
+}
+.para {
+  opacity: 0.5;
+}
+.facilities {
+  margin-top: 250px;
+  text-align: center;
+}
+.facilities-pad {
+  padding-left: 41px;
+  padding-right: 44px;
+}
+.interest {
+  margin-top: 100px;
+  text-align: center;
+}
+.interest-pad {
+  padding-left: 41px;
+  padding-right: 44px;
+}
+.interest-align{
+  text-align: start;
+}
+.btn-style{
+  width: 129px;
+    margin-right: 9px;
+}
+.color-container{
+  background-color: #EAF2FF;
+  margin-top: 300px;
+}
+.color-container>section{
+  transform: translateY(-200px);
+}
